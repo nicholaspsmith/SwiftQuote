@@ -9,7 +9,7 @@
         <!--Quotes-->
         <scene sceneID="bGY-wv-yRk">
             <objects>
-                <tableViewController id="Ne2-OM-mSU" sceneMemberID="viewController">
+                <tableViewController id="Ne2-OM-mSU" customClass="OverviewTableViewController" customModule="SwiftQuote" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ghm-hf-xz0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="1090" y="371"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Quote Table View Controller-->
         <scene sceneID="W1C-Xp-Cw7">
             <objects>
-                <tableViewController id="sb4-Zg-g6x" sceneMemberID="viewController">
+                <tableViewController id="sb4-Zg-g6x" customClass="QuoteTableViewController" customModule="SwiftQuote" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="aco-eL-ega">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

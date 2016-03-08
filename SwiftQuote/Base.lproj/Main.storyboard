@@ -108,9 +108,18 @@
                         </connections>
                     </tableView>
                     <toolbarItems>
-                        <barButtonItem systemItem="save" id="een-Q7-2UA"/>
+                        <barButtonItem systemItem="save" id="een-Q7-2UA">
+                            <connections>
+                                <action selector="saveQuote:" destination="sb4-Zg-g6x" id="66R-hG-ACV"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="authorTextField" destination="TCQ-Wq-FiM" id="26e-Zl-2qR"/>
+                        <outlet property="quoteTextView" destination="6ZG-K0-Yhv" id="TZA-Cz-LyA"/>
+                        <outlet property="saveButton" destination="een-Q7-2UA" id="piM-v8-Via"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIO-Sm-P0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

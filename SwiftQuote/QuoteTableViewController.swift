@@ -24,7 +24,7 @@ class QuoteTableViewController: UITableViewController {
     @IBAction func saveQuote(sender: AnyObject) {
     }
 
-    // Override to support rearranging the table view.
+    // Support rearranging the table view.
     override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
     }
     
